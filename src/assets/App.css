@@ -1,0 +1,130 @@
+/* Contenedor de las tarjetas */
+.card-container {
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  gap: 15px; 
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+/* Tarjetas */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  text-align: center;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+/* Imágenes */
+.card img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px;
+}
+
+/* Títulos */
+.card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Botones */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* Estilo del contenedor principal del header */
+.header {
+  position: relative;
+  height: 300px; 
+  overflow: hidden; 
+  text-align: center;
+  color: white;
+}
+
+/* Estilo de la imagen */
+.header-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  filter: brightness(50%); 
+}
+
+/* Estilo del texto centrado */
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2.5rem; 
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1.2rem; 
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav button {
+  margin-right: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #555;
+}
+
+nav span {
+  background-color: #555;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
